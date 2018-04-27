@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-boot-demo</module>
+        <module>spring-boot-properties</module>
     </modules>
 
 
