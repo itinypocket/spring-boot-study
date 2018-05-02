@@ -12,6 +12,7 @@
         <module>spring-boot-demo</module>
         <module>spring-boot-properties</module>
         <module>spring-boot-env</module>
+        <module>spring-boot-mybatis</module>
     </modules>
 
 
