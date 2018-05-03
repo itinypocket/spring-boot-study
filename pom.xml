@@ -14,6 +14,7 @@
         <module>spring-boot-env</module>
         <module>spring-boot-mybatis</module>
         <module>spring-boot-druid</module>
+        <module>spring-boot-pagehelper</module>
     </modules>
 
 

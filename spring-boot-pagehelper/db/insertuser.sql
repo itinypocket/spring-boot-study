@@ -1,0 +1,9 @@
+INSERT INTO `springboot`.`tbl_user`(`user_id`, `user_name`, `user_age`) VALUES (4, 'user1', 21);
+INSERT INTO `springboot`.`tbl_user`(`user_id`, `user_name`, `user_age`) VALUES (5, 'user2', 22);
+INSERT INTO `springboot`.`tbl_user`(`user_id`, `user_name`, `user_age`) VALUES (6, 'user3', 23);
+INSERT INTO `springboot`.`tbl_user`(`user_id`, `user_name`, `user_age`) VALUES (7, 'user4', 24);
+INSERT INTO `springboot`.`tbl_user`(`user_id`, `user_name`, `user_age`) VALUES (8, 'user5', 25);
+INSERT INTO `springboot`.`tbl_user`(`user_id`, `user_name`, `user_age`) VALUES (9, 'user6', 26);
+INSERT INTO `springboot`.`tbl_user`(`user_id`, `user_name`, `user_age`) VALUES (10, 'user7', 27);
+INSERT INTO `springboot`.`tbl_user`(`user_id`, `user_name`, `user_age`) VALUES (11, 'user8', 28);
+INSERT INTO `springboot`.`tbl_user`(`user_id`, `user_name`, `user_age`) VALUES (12, 'user9', 29);
