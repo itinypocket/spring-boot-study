@@ -15,6 +15,7 @@
         <module>spring-boot-mybatis</module>
         <module>spring-boot-druid</module>
         <module>spring-boot-pagehelper</module>
+        <module>spring-boot-mapper4</module>
     </modules>
 
 
