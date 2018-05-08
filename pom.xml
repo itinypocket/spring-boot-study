@@ -16,6 +16,7 @@
         <module>spring-boot-druid</module>
         <module>spring-boot-pagehelper</module>
         <module>spring-boot-mapper4</module>
+        <module>spring-boot-jsp</module>
     </modules>
 
 
