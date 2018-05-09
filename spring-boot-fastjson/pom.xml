@@ -10,7 +10,7 @@
     <packaging>war</packaging>
 
     <name>spring-boot-fastjson</name>
-    <description>Spring Boot教程(十)：Spring Boot集成fastjson</description>
+    <description>Spring Boot教程(十一)：Spring Boot集成fastjson</description>
 
     <!-- Spring Boot启动器父类 -->
     <parent>
