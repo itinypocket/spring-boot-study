@@ -22,6 +22,7 @@
         <module>spring-boot-upload</module>
         <module>spring-boot-ehcache</module>
         <module>spring-boot-mybatis-generator</module>
+        <module>spring-boot-shiro</module>
     </modules>
 
 
