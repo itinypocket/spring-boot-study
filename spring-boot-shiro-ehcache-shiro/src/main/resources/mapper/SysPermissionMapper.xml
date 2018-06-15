@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.songguoliang.springboot.mapper.SysPermissionMapper">
+    <resultMap id="BaseResultMap" type="com.songguoliang.springboot.entity.SysPermission">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="parent_id" jdbcType="BIGINT" property="parentId"/>
+        <result column="res_name" jdbcType="VARCHAR" property="resName"/>
+        <result column="res_type" jdbcType="CHAR" property="resType"/>
+        <result column="permission" jdbcType="VARCHAR" property="permission"/>
+        <result column="url" jdbcType="VARCHAR" property="url"/>
+    </resultMap>
+    <select id="selectPermissionByUserId" parameterType="long" resultType="string">
+        select distinct sp.permission from sys_permission sp
+        inner join sys_role_permission srp on sp.id=srp.permission_id
+        inner join sys_user_role sur on sur.role_id=srp.role_id
+        where sur.user_id=#{userId}
+    </select>
+
+
+</mapper>
