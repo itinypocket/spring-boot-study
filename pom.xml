@@ -25,6 +25,7 @@
         <module>spring-boot-shiro</module>
         <module>spring-boot-shiro-ehcache</module>
         <module>spring-boot-shiro-ehcache-shiro</module>
+        <module>spring-boot-scheduling</module>
     </modules>
 
 
