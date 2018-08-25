@@ -28,6 +28,7 @@
         <module>spring-boot-scheduling</module>
         <module>spring-boot-quartz</module>
         <module>spring-boot-quartz-db</module>
+        <module>spring-boot-session-share</module>
     </modules>
 
 
