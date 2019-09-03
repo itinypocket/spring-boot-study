@@ -29,6 +29,7 @@
         <module>spring-boot-quartz</module>
         <module>spring-boot-quartz-db</module>
         <module>spring-boot-mybatis-generator-mysql</module>
+        <module>spring-boot-jwt</module>
     </modules>
 
 
